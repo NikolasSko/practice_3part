@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #4056A1;
+    height: 100px;
+    width: 1920px;
+}
+body{
+    background-color: #c5cbe3;
+    width: 1920px;
+}
+
+.logo{
+    position: relative;
+    top: 24px;
+    left: 147px;
+
+}
+
+.links{
+    position: relative;
+    bottom: 10px;
+    margin-left: 1280px;
+    display:flex;
+    gap:70px;
+
+    font-size: 18px;
+
+}
+
+.main_links{
+    color: white;
+}
+
+.enter{
+    position: relative;
+    left: 420px;
+    color: white;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*авторизация*/
+
+.title{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 45px;
+    top: 40px;
+    color: white;
+
+}
+
+.login_form{
+    width: 372px;
+    height: 280px;
+    background-color: #5a6bb0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid black;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 180px;
+
+}
+
+.login_input1{
+    position: relative;
+    left: 13px;
+    top: 65px;
+    width: 346px;
+    height: 50px;
+    border-radius: 5px;
+
+}
+
+.login_label1{
+    position: relative;
+    left: 13px;
+
+}
+
+.login_btn{
+    background-color: #656396;
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+    width: 130px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+.list{
+    margin-left: 160px;
+    margin-top: 158px;
+    list-style: none;
+}
+
+.list_group{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.list_items{
+    list-style: none;
+    font-size: 28px;
+    color: white;
+    margin-left: 170px;
+    margin-top: 180px;
+
+}
+
+.teacher_info{
+    padding-top: 10px;
+}
+
+.image{
+    height: 100px;
+    width: 100px;
+}
+
+.list_departments{
+    display: flex;
+    flex-direction: row;
+    gap: 110px;
+}
+
+.departments_btn{
+    height: 30px;
+    margin-top: 7px;
+
+}
+
+.lecturers_group{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.lecturers_btn{
+    margin-top: 10px;
+}
+
+.lecturers_add{
+    padding: 30px 200px;
+    background-color: #5a6bb0;
+    margin: 142px 0 0 165px;
+    position: relative;
+    top: 100px;
+    border-radius: 20px;
+    color: white;
+
+}
+
+.form_add_lecturer{
+    display: flex;
+    flex-direction: column;
+    width: 372px;
+    height: 702px;
+    gap: 50px;
+    margin: 0 auto;
+}
+
+.form_add_btn{
+    background-color: #656396;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+    width: 130px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+}
+
+.select{
+    position: relative;
+    top: 50px;
+}
+
+.form_attach{
+    margin-top: 100px;
+    margin-left: 680px;
+}
+
+.attach_btn{
+    background-color: #656396;
+    position: relative;
+    right: 330px;
+    top: 80px;
+    width: 130px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+

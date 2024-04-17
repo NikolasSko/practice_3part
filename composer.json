@@ -1,0 +1,25 @@
+{
+    "name": "andryueee/godness",
+    "description": "Bla bla bla",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andryueee",
+            "email": "vasyukov2004@list.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0",
+        "illuminate/database": "10.x-dev",
+        "illuminate/events": "10.x-dev",
+        "nikic/fast-route": "2.0.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "pop-it-mvc/core/Src/",
+            "": "pop-it-mvc/app/"
+        }
+    }
+}
